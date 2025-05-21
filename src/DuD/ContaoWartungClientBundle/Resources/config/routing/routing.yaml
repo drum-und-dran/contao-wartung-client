@@ -1,0 +1,4 @@
+dud_wartung_api:
+  path: /contao-wartung/api
+  controller: DuD\ContaoWartungClientBundle\Controller\ApiController::systemInfo
+  methods: [GET]

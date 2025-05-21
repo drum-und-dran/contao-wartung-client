@@ -1,0 +1,6 @@
+services:
+  DuD\ContaoWartungClientBundle\Controller\ApiController:
+    arguments:
+      - '@parameter_bag'
+      - '@doctrine.dbal.default_connection'
+    tags: ['controller.service_arguments']
