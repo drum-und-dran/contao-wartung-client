@@ -1,13 +1,13 @@
 {
   "name": "dud/contao-wartung-client",
-  "description": "Stabiles Contao-Wartungsbundle mit funktionierender Routing-Integration für Packagist",
+  "description": "Contao-Wartungsbundle (Entwicklungsversion)",
   "type": "contao-bundle",
   "license": "MIT",
   "version": "1.0.3",
   "authors": [
     {
       "name": "Gunnar Haeuschkel",
-      "email": "example@example.com"
+      "email": "gunnar@drum-und-dran.de"
     }
   ],
   "require": {
