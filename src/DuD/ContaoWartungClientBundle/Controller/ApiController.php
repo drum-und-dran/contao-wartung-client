@@ -5,6 +5,7 @@ namespace DuD\ContaoWartungClientBundle\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
+use Contao\CoreBundle\ContaoCoreBundle;
 use Doctrine\DBAL\Connection;
 
 class ApiController
@@ -28,7 +29,7 @@ class ApiController
         }
 
         $phpVersion = phpversion();
-        $contaoVersion = $this->params->get('kernel.contao_version');
+	$contaoVersion = ContaoCoreBundle::VERSION ?? 'unknown';
         $mysqlVersion = $this->getMysqlVersion();
 
         return new JsonResponse([

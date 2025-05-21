@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.4] – Bugfix
+### Fix
+- Parameterprüfung in Controller angepasst
+
 ## [1.0.3] – Veröffentlicht Mai 2025
 ### Hinzugefügt
 - Packagist-kompatible Version mit automatischer Service- und Routingintegration
